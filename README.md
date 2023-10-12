@@ -1,20 +1,3 @@
----
-# stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.3.0/github-markdown.min.css
-# body_class: markdown-body
-# pdf_options:
-#   format: A4
-#   margin: 20mm 20mm
-#   displayHeaderFooter: true
-#   footerTemplate: |-
-#     <section>
-#       <div>
-#         <span class="pageNumber"></span>
-#         /<span class="totalPages"></span>
-#       </div>
-#     </section>
----
-
-
 # 職務経歴書
 
 ## 基本情報
