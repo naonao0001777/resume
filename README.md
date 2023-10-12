@@ -96,11 +96,11 @@ PHP / PostgreSQL / Apache / Bootstrap / Docker
 * PHPも初めてでした。また、Webの知識を付けるためLaravel等のフレームワークは使用していません。
 * セキュリティも対策しました。CSRF対策、 XSS、SQLインジェクション等
 
-### 絵描きをしている友達のポートフォリオ🎨
+### 絵描きをしている友達のポートフォリオ
 
 ###### 2023.9~2023.10
 
-#### <a href="https://demohouse-react.netlify.app/" target="_blank" rel="noopener noreferrer">デモサイト</a>
+##### <a href="https://demohouse-react.netlify.app/" target="_blank" rel="noopener noreferrer">デモサイト</a>
 <!-- ![demo](https://github.com/naonao0001777/egg-react-demo/assets/46675984/bd624375-a10f-4b84-a1cb-343098433cae) -->
 ###### 使用した技術
 
@@ -115,7 +115,7 @@ React / TypeScript / Bulma
 
 ###### 2020~現在
 
-### <a href="http://naopem.com/" target="_blank" rel="noopener noreferrer">http://naopem.com/</a>
+##### <a href="http://naopem.com/" target="_blank" rel="noopener noreferrer">http://naopem.com/</a>
 <!-- ![demo](https://github.com/naonao0001777/egg-react-demo/assets/46675984/bd624375-a10f-4b84-a1cb-343098433cae) -->
 ###### 使用した技術
 
@@ -124,7 +124,7 @@ HTML5 / CSS3 / jQuery
 
 * CSSフレームワークを使用していないサイトなので、デザイン共にそろそろ刷新したいです。
 
-### Youtubeコメントを取得し検索/ソートをするWebサイト  💻💬
+### Youtubeコメントを取得し検索/ソートをするWebサイト💻💬
 
 ###### 2019~数週間程度
 
@@ -140,7 +140,7 @@ YoutubeAPIを使用した何かを作りたいと思い、コメントを取得�
 
 * APIを利用して一から開発をするのは初めてだったため初めての挑戦でしたが、意外とデータを取ってくるところだけ注意してなんとか開発しきりました。
 
-### 英和⇔和英翻訳LINE bot  💬
+### 英和⇔和英翻訳LINE bot💬
 
 ###### 2019~数週間程度
 
