@@ -67,11 +67,11 @@ PLと2人で連携して開発エンジニアとして
 
 ### 大手機械メーカーの生産管理システム開発（C#）
 
-20人(パートナー社員含む)
+20人(パートナー社員含む)のPJのプロパーとして
 
 ###### やったこと
 
-テスト、実装、受入、本番環境リリース
+テスト、インフラ構築、実装、受入、本番環境リリース
 
 * 上司がいるプロジェクトチームで、最初はテストケースを考え、仕様書を作成し、実施することで下地となる経験を積ませてもらいました。簡単な追加機能を実装したり、メールサーバーやWebサーバー、DBサーバーの構築、リリース等色々なことをしました。
 * ちょっと雑務も多かったですね。
@@ -150,7 +150,7 @@ YoutubeAPIを使用した何かを作りたいと思い、コメントを取得�
 
 ###### 使用した技術
 
-GoogleAppScript　/ LineAPI
+GoogleAppScript / LineAPI
 
 ## 保有スキル
 
@@ -228,3 +228,9 @@ FallGuysはプロレベルにまでやり、動画をアップロードしてい
 * 本を読むのも好きです。  
 一時期は4ヵ月で10冊以上技術書を買ってました。Effective DevOpsは読んでて感動しています。他にもカイゼンジャーニー、アジャイルサムライ、Team Geek、SOFT SKILLS、達人プログラマーは
 たまに読んではモデルを形成し、開発体験に落としたいと思う本です。
+
+## ソーシャルメディア
+* <a href="https://github.com/naonao0001777" target="_blank" rel="noopener noreferrer">Github</a>
+* <a href="https://twitter.com/salty_special" target="_blank" rel="noopener noreferrer">Twitter</a>
+* <a href="https://zenn.dev/naozen" target="_blank" rel="noopener noreferrer">Zenn</a>
+* <a href="https://qiita.com/salty_special" target="_blank" rel="noopener noreferrer">Qiita</a>
