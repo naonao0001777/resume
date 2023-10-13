@@ -1,7 +1,7 @@
 {
   "name": "naohiro-resume",
   "version": "1.0.0",
-  "description": "| 項目            | 内容                         |\r | --------------- | ---------------------------- |\r | 氏名            | 安孫子 直弘 (アビコ ナオヒロ) |\r | 生年月日        | 1993.7.17                    |\r | 出身地 / 居住地 | 埼玉県 / 東京都              |\r | 最終学歴        | 早稲田大学 法学部            |\r | 資格            | AT普通自動車運転免許         |",
+  "description": "naohiro's resume",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
