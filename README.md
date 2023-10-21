@@ -40,9 +40,9 @@ PLと2人で連携して開発エンジニアとして
 ###### 実績・工夫した点
 
 * ソースコードの関数と関数のネストを洗い出す作業。
-* 特定の名称を含む関数名や変数名をさらに洗い出し、ファイルに書き出す作業。
-  * 人の目で作業をする前提で進んでいましたが、私は自動化をした方が良いと考え、シェルスクリプトで文字列検索、操作の処理をし、ファイルに書き出すバッチを作成した。
-  * また、Excelでは関数を活用し、該当の箇所は色を付けたり、フィルターを付けたりして視覚的に分かりやすくなるようにしたり、なるべく手作業を減らすよう工夫した。
+* 特定の関数や変数をさらに洗い出し、ファイルに書き出す作業。
+  * 人の手で作業をする前提で進んでいましたが、私は自動化をした方が良いと考え、シェルスクリプトで文字列検索、操作の処理をし、ファイルに書き出すバッチを作成した。
+  * また、Excelでは関数を活用し、該当の箇所は色を付けたり、フィルターを付けたりして視覚的に分かりやすくなるようにしたり、作業者の負担を減らす工夫をした。
 
 <div style="page-break-before:always"></div>
 
@@ -180,7 +180,7 @@ React / TypeScript / Bulma
 ###### 課題
 
 * アニメーション(アイコンのスクロールの位置によるスタイル変化)を実装したいですが、今はまだできていません。
-* 最初はNext.js、GatsbyJS、Astroを使用して開発しようと考えていましたが、フレームワークゆえの障害もあり、ReactとTypescriptのみで開発することにしました。
+* 最初はNext.js、GatsbyJS、Astroを使用して開発しようと考えていましたが、フレームワークゆえのできないこともあり、ReactとTypescriptのみで開発することにしました。
 
 ### 私の個人開発ポートフォリオ
 
@@ -188,6 +188,7 @@ React / TypeScript / Bulma
 
 ##### <a href="http://naopem.com/" target="_blank" rel="noopener noreferrer">http://naopem.com/</a>
 <!-- ![demo](https://github.com/naonao0001777/egg-react-demo/assets/46675984/bd624375-a10f-4b84-a1cb-343098433cae) -->
+
 ###### 使用した技術
 
 HTML5 / CSS3 / jQuery
@@ -195,6 +196,7 @@ HTML5 / CSS3 / jQuery
 ###### 課題
 
 * CSSフレームワークを使用していないサイトなので、デザイン共にそろそろ刷新したいです。
+* 自作ブログを開発し、その中に私の自己紹介やポートフォリオを組み込むような形にしてもう一つのサイトを開発しようという考えもあります。
 
 ### Youtubeコメントを取得し検索/ソートをするWebサイト
 
@@ -204,11 +206,17 @@ HTML5 / CSS3 / jQuery
 
 YoutubeAPIを使用した何かを作りたいと思い、コメントを取得してくるサイトを作ってみました。
 <!-- ![YouTubeAPIを使用した代表作](https://user-images.githubusercontent.com/46675984/124333733-13650480-dbd0-11eb-8a29-b30718afd31f.gif)   -->
+
+<div style="page-break-before:always"></div>
+
+##### 開発したことで分かったこと
+
+* APIを使用する方法を理解したこと。
+* Webサービス開発はUIもさることながら、目的や達成できることの価値をもっと考える必要があることが分かった。
+
 ###### 使用した技術
 
 .NET C# / Azure / jQuery / Bootstrap / YouTubeAPI  
-
-<div style="page-break-before:always"></div>
 
 ### 英和⇔和英翻訳LINE bot
 
@@ -216,7 +224,12 @@ YoutubeAPIを使用した何かを作りたいと思い、コメントを取得�
 
 ##### <a href="https://github.com/naonao0001777/translation-line-bot" target="_blank" rel="noopener noreferrer">Github</a>
 
-すぐに翻訳できるサイトかアプリが欲しいと思い、LINEBotを作成してみたいのもあって作成。
+すぐに翻訳できるサイトかアプリが欲しいと思い、LINEBotの開発をしました。
+
+##### 開発をしたことで分かったこと
+
+* これを利用すると何が良いのかということをまず考える必要がある。
+* まずは自分が欲しいものかどうかという基準があった方が良い。
 
 ###### 使用した技術
 
@@ -253,6 +266,8 @@ GoogleAppScript / LINE API
 * PostgreSQL
   * 簡易的なDBを構築し、クエリを用いてCRUD処理を書くことができます。
 
+<div style="page-break-before:always"></div>
+
 #### その他
 
 * Docker
@@ -261,9 +276,6 @@ GoogleAppScript / LINE API
   * CSSフレームワークにないクラス、要素を追加することができます。
 * Node.js (v16.7.13)
   * サーバーとして使用し、npmを操作することができます。
-
-<div style="page-break-before:always"></div>
-
 * Shell
   * シェルスクリプトを用いて、Gitブランチを統合、ビルド、リリースまでのインフラを自動化することができます。
   * 文字列を操作したりファイル、フォルダの操作等をし、面倒な作業を自動化して効率化を図ったツールを作れます。
