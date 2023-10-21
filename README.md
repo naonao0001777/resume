@@ -159,7 +159,7 @@ PLと2人で連携して開発エンジニアとして
 
 ###### 使用した技術
 
-PHP / PostgreSQL / Apache / Bootstrap / Docker
+PHP / PostgreSQL / Apache / Bootstrap / Docker / MySQL
 
 ###### 学習した点
 
@@ -182,7 +182,7 @@ PHP / PostgreSQL / Apache / Bootstrap / Docker
 
 ###### 使用した技術
 
-React / TypeScript / Bulma
+React / TypeScript / Bulma / Node.js
 
 ###### 課題
 
