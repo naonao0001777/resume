@@ -369,6 +369,5 @@ FallGuysはプロレベルにまでやり、動画をアップロードしてい
 ## ソーシャルメディア
 
 * <a href="https://github.com/naonao0001777" target="_blank" rel="noopener noreferrer">Github</a>
-* <a href="https://twitter.com/salty_special" target="_blank" rel="noopener noreferrer">Twitter</a>
 * <a href="https://zenn.dev/naozen" target="_blank" rel="noopener noreferrer">Zenn</a>
 * <a href="https://qiita.com/salty_special" target="_blank" rel="noopener noreferrer">Qiita</a>
