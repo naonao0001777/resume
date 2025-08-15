@@ -1,9 +1,0 @@
-remote_theme: pages-themes/leap-day@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
-title: [Abiko Naohiro 職務経歴書]
-description: [Abiko Naohiroの職務経歴書]
-
-show_downloads: [true]
-google_analytics: [Your Google Analytics tracking ID]
