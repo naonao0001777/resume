@@ -1,0 +1,37 @@
+name: Deploy from Private Repo
+
+on:
+  repository_dispatch:
+    types: [deploy-from-private]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout resume repo
+        uses: actions/checkout@v4
+
+      - name: Checkout private repo
+        uses: actions/checkout@v4
+        with:
+          repository: naonao0001777/resume-markdown
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: private-src
+
+      - name: Copy files from private repo
+        run: |
+          cp -r private-src/* .
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+      - name: Install dependencies
+        run: bundle install
+      - name: Build site
+        run: bundle exec jekyll build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
