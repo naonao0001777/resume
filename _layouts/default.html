@@ -46,14 +46,14 @@
       </section>
       <script>
         // 許可するリファラードメイン
-        const allowedReferer = 'https://trusted-domain.com';
+        const allowedReferer = 'https://password-check-serverless.vercel.app/';
 
         // リファラ情報を取得
         const referrer = document.referrer;
 
         // リファラが許可されたドメインではない、またはリファラがない場合はリダイレクト
         if (referrer === '' || !referrer.startsWith(allowedReferer)) {
-            window.location.href = 'https://unauthorized-access-page.com';
+            window.location.href = 'https://example.com/';
         }
       </script>
       <footer>
